@@ -102,7 +102,6 @@ Display the result.
 Stop.
 
 ---
-
 # 💻 PYTHON CODE
 
 ```python
@@ -151,3 +150,31 @@ pass_percentage = (passed / len(students)) * 100
 print("\nClass Average =", average)
 print("Topper =", topper)
 print("Pass Percentage =", pass_percentage, "%")
+
+
+INPUT
+
+The student marks are:
+A = [80, 70, 90]
+B = [60, 65, 70]
+C = [90, 95, 85]
+
+OUTPUT
+
+A Total = 240 Percentage = 80.0 Grade = A
+B Total = 195 Percentage = 65.0 Grade = B
+C Total = 270 Percentage = 90.0 Grade = A+
+
+Class Average = 235.0
+Topper = C
+Pass Percentage = 100.0 %
+
+TIME COMPLEXITY
+
+Let n = number of students.
+
+Each student is processed once.
+
+Time Complexity = O(n)
+
+
